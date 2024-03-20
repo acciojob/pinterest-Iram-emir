@@ -1,1 +1,21 @@
-/*  your css code here. If applicable */
+.hero img{
+	width:100%;
+	height:100%;
+	object-fit:cover;
+	
+}
+.explore-button {
+  padding: 10px 20px;
+  background-color: #bd081c; /* Pinterest red color */
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+
+.explore-button:hover {
+  background-color: #8c0615; /* Darker red color on hover */
+}
